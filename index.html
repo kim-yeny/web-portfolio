@@ -13,19 +13,7 @@
 </style>
 
 <body>
-    <div class="first">
-        <div class="bg-wrap">
-          <div class="bg"></div>
-        </div>
-      </div>
-      <div class="second">
-        <div class="bg-wrap">
-          <div class="bg"></div>
-        </div>
-      </div>
-
     <div id=wrap>
-        
         <!-- Menu Button -->
         <button id="menu_btn"></button>
 
@@ -278,7 +266,7 @@
     function handleScroll() {
         var windowWidth = $( window ).width();
         console.log(windowWidth);
-
+        
         if(windowWidth > 1100) {
             const elems = document.querySelectorAll('.up-on-scroll');
             elems.forEach(elem => {
