@@ -348,7 +348,7 @@ div.float_circle img {
 }
 
 /* [BG] Circle */
-/* #menu_circle {
+#menu_circle {
     z-index: 0;
     position: absolute;
     display: flex;
@@ -359,7 +359,7 @@ div.float_circle img {
 #menu_circle .circle_txt {
     width: 70%;
     opacity: 20%;
-} */
+}
 
 /* [BUTTON] Menu */
 #menu_content .close_btn {
@@ -565,5 +565,17 @@ div.float_circle img {
         height: 30px;
         top: 0;
         right: 0;
+    }
+
+    #menu_circle .circle_txt {
+        width: 130%;
+    }
+
+    #menu_btn_box {
+        font-size: 30px;
+    }
+
+    #contact_box {
+        margin-top: 30px;
     }
 }
