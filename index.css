@@ -24,6 +24,7 @@ button {
     background-image: url(img/bg_pink.jpg);
     background-size: 130%;
     background-position: top right;
+    background-repeat: no-repeat;
 }
 
 /* Body Button */
