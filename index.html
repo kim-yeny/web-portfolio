@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kim-Yeny Portfolio</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<style>
+</style>
+
+<body>
+    <div id=wrap>
+        <!-- Menu Button -->
+        <button id="menu_btn"></button>
+
+        <!-- TOP Button -->
+        <button id="top_btn">
+            <div id="top_circle"></div>
+            <div id="top_line"></div>
+        </button>
+
+        <!-- Contents -->
+        <section id="content">
+
+            <!-- Part1 :: Profile -->
+            <div id="part1" class="part">
+                <div class="title">
+                    <p class="sub_title">Profile</p>
+                    <div class="main_title_box">
+                        <p class="main_title" id="main_title1">빛나는 사람이 되기 위해</p>
+                        <p class="main_title" id="main_title2">빛내는 사람을 꿈꿉니다</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Part3 :: Project -->
+            <div id="part_2_3" class="up-on-scroll">
+                <div id="part2" class="part">
+                    <div class="title">
+                        <p class="sub_title">About</p>
+                        <p class="main_title">PROJECT</p>
+                    </div>
+                    <div class="btn_box">
+                        <div class="left_line"></div>
+                        <div class="more_btn">
+                            <p>READ MORE</p>
+                            <div class="btn_line"></div>
+                        </div>
+                        <div class="right_line"></div>
+                    </div>
+                </div>
+                <div id="part3" class="part up-on-scroll">
+                    <p class="txt">
+                        안녕하세요. <span>달릴 준비가 되어있는 새내기 개발자 '김예은'</span> 입니다.
+                        <br>제 포트폴리오 사이트를 방문해주셔서 진심으로 감사드립니다.
+                        <br><br>지난 7개월 간, IT 전문 교육기관에서 NCS 교육을 수강하였습니다.
+                        <br>Front-end와 Back-end에 대한 이해를 바탕으로 JAVA, JS, Python, SQL 등
+                        <br>각종 프로그래밍 언어를 사용하여 제작한 프로젝트들을 소개합니다.
+                        <br><br>나무가 단단하게 뿌리를 내리기 위해선, 그에 걸맞는 토양과 풍파가 필요합니다.
+                        <br>새싹 개발자의 성장을 위해 <span>마음껏 채찍질하고 다져주실 </span>선배님들을 찾습니다.
+                    </p>
+                </div>
+            </div>
+
+            <!-- <div class='float_circle'>
+                <img src="img/circle.png" alt="">
+            </div> -->
+
+            <!-- part4 :: Video -->
+            <div id="part4" class="part up-on-scroll">
+                <div class="title">
+                    <p class="main_title">EsRP 시연 영상</p>
+                    <p class="sub_title">메인 팀 프로젝트인 웹 ERP 서비스를 시연한 짧은 영상입니다.<br>
+                        사이트가 제공하는 기능을 구체적으로 확인하실 수 있습니다.</p>
+                    <button class="video_btn">
+                        <img src="img/play_btn.png" alt="vide play">
+                    </button>
+                </div>
+                <div class="title">
+                    <p class="main_title">서비스 개발 PDF</p>
+                    <p class="sub_title">EsRP 기획부터 완성까지의 과정이 정리된 PDF 입니다.<br>
+                        사이트 이용 방법 및 기능을 확인하실 수 있습니다.</p>
+                    <button class="pdf_btn">
+                        <img src="img/pdf_btn.png" alt="pdf open">
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>|&nbsp;&nbsp;Thank you for visiting my portfolio site&nbsp;&nbsp;|&nbsp;&nbsp;Made by
+            Kim-Yeny&nbsp;&nbsp;|</p>
+    </footer>
+
+
+    <!-- [MODAL] Side Menu -->
+    <div class="modal" id="menu_modal">
+        <!-- <div class="modal_overlay" id=""></div> -->
+        <div class="modal_content" id="menu_content">
+            <div id="menu_circle">
+                <img class="circle_txt" src="img/circle_txt.png" alt="">
+            </div>
+            <button class="close_btn"></button>
+            <div id="menu_btn_box">
+                <button id="profile_btn">Profile</button>
+                <button id="project_btn">Project</button>
+                <div id="contact_box">
+                    <p>C O N T A C T</p>
+                    <p>010-4320-7144&nbsp;&nbsp;|&nbsp;&nbsp;des423@naver.com&nbsp;&nbsp;|&nbsp;&nbsp;https://user-0715.tistory.com/
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- [MODAL] Profile -->
+    <div class="modal" id="profile_modal">
+        <div class="modal_overlay" id=""></div>
+        <div class="modal_content" id="profile_content">
+            <img src="img/profile_0.jpg" alt="">
+            <img src="img/profile_1.jpg" alt="">
+            <img src="img/profile_2.jpg" alt="">
+            <button class="close_btn"></button>
+        </div>
+    </div>
+
+    <!-- [MODAL] Project -->
+    <div class="modal" id="project_modal">
+        <div class="modal_overlay" id=""></div>
+        <div class="modal_content" id="project_content">
+            <img src="img/project_1.jpg" alt="">
+            <img src="img/project_2.jpg" alt="">
+            <img src="img/project_3.jpg" alt="">
+            <img src="img/project_4.jpg" alt="">
+            <button class="close_btn"></button>
+        </div>
+    </div>
+
+    <!-- [MODAL] Video -->
+    <div class="modal" id="video_modal">
+        <div class="modal_overlay" id=""></div>
+        <div class="modal_content" id="video_content">
+            <button class="close_btn"></button>
+            <video oncontextmenu="return false;" id="video_erp" width="100%" controls>
+                <source src="video_erp.mp4" type="video/mp4">
+            </video>
+        </div>
+    </div>
+</body>
+
+<script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+<script>
+    // [READY] All Modal Hide
+    $(document).ready(function () {
+        $('.modal').hide();
+    });
+
+    // Scroll to TOP
+    $('#top_btn').click(function () {
+        $('html, body').animate({ scrollTop: 0 }, 10);
+        return false;
+    });
+
+    // Don't Scroll ( Body )
+    function noScroll() {
+        $('body').css("overflow", "hidden");
+    };
+
+    // [CLOSE] All Modal
+    function closeMo() {
+        $('.modal').fadeOut(300);
+        $('.modal_content').scrollTop(0);
+        $('body').css("overflow", "scroll");
+
+        // $(".project_img_box .project_img").hide();
+        $('#project_content li').css("background", "none");
+    }
+
+    $('.modal_overlay, .close_btn').click(function () {
+        closeMo();
+    });
+
+    // [OPEN] Modal
+    $('#menu_btn').click(function () {
+        noScroll();
+        $('#menu_modal').fadeIn(300);
+    });
+
+    $('.main_title_box').click(function () {
+        noScroll();
+        $('#profile_modal').fadeIn(300);
+    });
+
+    $('.btn_box').click(function () {
+        noScroll();
+        $('#project_modal').fadeIn(300);
+        // $(".project_img_box .circle_txt").show();
+    });
+
+    $('.video_btn').click(function () {
+        noScroll();
+        $('#video_modal').fadeIn(300);
+    });
+
+    $('.pdf_btn').click(function () {
+        window.open('https://kim-yeny.github.io/portfolio/2.2-erp-project.pdf');
+    });
+
+    // [BTN] Click Side Menu
+    $('#profile_btn').click(function () {
+        closeMo();
+        noScroll();
+        $('#profile_modal').fadeIn(300);
+    });
+
+    $('#project_btn').click(function () {
+        closeMo();
+        noScroll();
+        $('#project_modal').fadeIn(300);
+    });
+
+    $('#contact_btn').click(function () {
+        closeMo();
+        noScroll();
+        $('#contact_modal').fadeIn(300);
+    });
+
+    $('.back_btn').click(function () {
+        closeMo();
+        noScroll();
+        $('#menu_modal').fadeIn(300);
+    });
+
+
+    // 프로젝트 목록 클릭 시, 해당 이미지 출력
+    // [BTN] Click Project List
+    // $('#project_content li').click(function () {
+    //     var id = $(this).attr('id');
+
+    //     // $(".project_img_box .circle_txt").hide();
+    //     // $(".project_img_box .project_img").attr("src", "img/" + id + ".png");
+    //     // $(".project_img_box .project_img").show();
+
+    //     $('#project_content li').not(this).css("background", "none");
+    //     $(this).css("background-color", "red");
+    // });
+
+    // function scrollLink(obj) {
+    //     var position = $("#" + obj).offset();
+    //     $('html, body').animate({ scrollTop: position.top }, 2000);
+    // }
+
+    // Scroll Effect
+    function isElementUnderBottom(elem, triggerDiff) {
+        const { top } = elem.getBoundingClientRect();
+        const { innerHeight } = window;
+        return top > innerHeight + (triggerDiff || 0);
+    }
+
+    function handleScroll() {
+        const elems = document.querySelectorAll('.up-on-scroll');
+        elems.forEach(elem => {
+            if (isElementUnderBottom(elem, -50)) {
+                elem.style.opacity = "0";
+                elem.style.transform = 'translateY(70px)';
+            } else {
+                elem.style.opacity = "90%";
+                elem.style.transform = 'translateY(0px)';
+            }
+        })
+    }
+
+    window.addEventListener('scroll', handleScroll);
+</script>
+
+</html>
