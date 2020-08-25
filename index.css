@@ -491,7 +491,7 @@ div.float_circle img {
 }
 
 /* Window Size */
-@media ( max-width: 1100px ) {
+@media ( max-width: 1200px ) {
     #menu_btn {
         width: 30px;
         height:30px;
@@ -564,7 +564,6 @@ div.float_circle img {
     footer {
         font-size: 10px;
         align-items: flex-start;
-        background: red;
     }
 
     .close_btn
