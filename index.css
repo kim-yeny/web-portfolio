@@ -424,8 +424,9 @@ div.float_circle img {
 }
 
 #profile_content img {
-    width: 100%;
-    max-width: 100%; height: auto;
+    /* width: 100%; */
+    max-width: 100%;
+    height: auto;
 }
 
 /* [MODAL] Project */
@@ -444,8 +445,9 @@ div.float_circle img {
 }
 
 #project_content img {
-    width: 100%;
-    max-width: 100%; height: auto;
+    /* width: 100%; */
+    max-width: 100%;
+    height: auto;
 }
 
 /* .project_img_box {
@@ -555,6 +557,8 @@ div.float_circle img {
     #part4 .title {
         margin-bottom: 50px;
     }
+
+    #pro
 
     #video_content {
         width: 80%;
