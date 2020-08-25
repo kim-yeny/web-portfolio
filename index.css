@@ -19,8 +19,15 @@ button {
     cursor: pointer;
 }
 
-#wrap {
+body {
+    background-image: url(img/bg_pink.jpg);
+    background-size: 130%;
+    background-position: top right;
+    background-repeat: no-repeat;
     background-attachment: fixed;
+}
+
+#wrap {
     background-image: url(img/bg_pink.jpg);
     background-size: 130%;
     background-position: top right;
