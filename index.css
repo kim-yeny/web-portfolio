@@ -27,13 +27,13 @@ body {
     background-attachment: fixed;
 }
 
-#wrap {
+/* #wrap {
     background-image: url(img/bg_pink.jpg);
     background-size: 130%;
     background-position: top right;
     background-repeat: no-repeat;
     background-attachment: fixed;
-}
+} */
 
 /* Body Button */
 #menu_btn {
@@ -500,6 +500,10 @@ div.float_circle img {
 
 /* Window Size */
 @media ( max-width: 1200px ) {
+    body {
+        background-attachment: initial;
+    }
+
     #menu_btn {
         width: 30px;
         height:30px;
