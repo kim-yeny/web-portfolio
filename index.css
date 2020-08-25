@@ -521,6 +521,10 @@ div.float_circle img {
         width: 0px;
     }
 
+    .right_line {
+        margin-left: 0px;
+    }
+
     #top_btn,
     #part3,
     #part4 .sub_title {

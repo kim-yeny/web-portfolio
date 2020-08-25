@@ -265,7 +265,8 @@
 
     function handleScroll() {
         var windowWidth = $( window ).width();
-        if(windowWidth > 1100) {
+        console.log(windowWidth);
+        if(windowWidth > 1000) {
             const elems = document.querySelectorAll('.up-on-scroll');
             elems.forEach(elem => {
                 if (isElementUnderBottom(elem, -50)) {
