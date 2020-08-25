@@ -264,16 +264,19 @@
     }
 
     function handleScroll() {
-        const elems = document.querySelectorAll('.up-on-scroll');
-        elems.forEach(elem => {
-            if (isElementUnderBottom(elem, -50)) {
-                elem.style.opacity = "0";
-                elem.style.transform = 'translateY(70px)';
-            } else {
-                elem.style.opacity = "90%";
-                elem.style.transform = 'translateY(0px)';
-            }
-        })
+        var windowWidth = $( window ).width();
+        if(windowWidth < 1100) {
+            const elems = document.querySelectorAll('.up-on-scroll');
+            elems.forEach(elem => {
+                if (isElementUnderBottom(elem, -50)) {
+                    elem.style.opacity = "0";
+                    elem.style.transform = 'translateY(70px)';
+                } else {
+                    elem.style.opacity = "90%";
+                    elem.style.transform = 'translateY(0px)';
+                }
+            })
+        }
     }
 
     window.addEventListener('scroll', handleScroll);

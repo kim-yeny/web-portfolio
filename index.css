@@ -347,16 +347,6 @@ div.float_circle img {
     background-color: #140040;
 }
 
-/* Background Change Effect */
-@keyframes change_color{
-    from {
-        background-color: #140040;
-    }
-    to { 
-        background-color: #ffb680;
-    }
-}
-
 /* [BG] Circle */
 /* #menu_circle {
     z-index: 0;
