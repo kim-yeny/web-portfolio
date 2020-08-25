@@ -541,13 +541,19 @@ div.float_circle img {
         height: 300px;
     }
 
+    #part4 {
+        flex-wrap: wrap;
+        margin: 50px auto;
+        height: fit-content;
+    }
+
     #part4 .title {
-        width: 48%;
+        margin-bottom: 50px;
     }
 
     .video_btn, .pdf_btn {
-        width: 100px;
-        height: 100px;
+        width: 80px;
+        height: 80px;
     }
 
     footer {
