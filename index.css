@@ -25,6 +25,7 @@ button {
     background-size: 130%;
     background-position: top right;
     background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
 /* Body Button */
@@ -215,6 +216,7 @@ button {
     justify-content: space-between;
     align-items: center;
     margin: 100px auto;
+    margin-bottom: 0;
     /* height: 500px; */
 }
 
@@ -540,6 +542,7 @@ div.float_circle img {
     #part4 {
         flex-wrap: wrap;
         margin: 50px auto;
+        margin-bottom: 0;
         height: fit-content;
     }
 
@@ -561,6 +564,7 @@ div.float_circle img {
     footer {
         font-size: 10px;
         align-items: flex-start;
+        background: red;
     }
 
     .close_btn
