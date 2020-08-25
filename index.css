@@ -518,7 +518,7 @@ div.float_circle img {
     }
 
     .btn_box:hover .btn_line {
-        width: 30px;
+        width: 0px;
     }
 
     #top_btn,
